@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#BC8887" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Evento XV Años</title>
+
+    <meta property="og:title" content="Invitación XV años - Ximena- Sábado, 15 Julio 2023">
+    <meta property="og:description" content="Invitación XV años - Ximena- Sábado, 15 Julio 2023">
+    <meta property="og:locale" content="id_ID" />
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Bulma Version 0.8.x-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/bulma-tooltip@0.1.5/dist/bulma-tooltip.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/evento.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
+    <script
+      src="https://kit.fontawesome.com/2828f7885a.js"
+      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.coundown.js"></script>
+    
+    <link rel="icon" type="image/png" href="image/favicon.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23064379-20"></script>
+    <!-- Begin Script for Countdown -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-23064379-20');
+    </script>
+    <!-- Begin Script for Countdown -->
+
+    <!-- Github Button -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <body>
+    <!-- Begin Preloader -->
+    <div class="preloader-wrapper">
+      <div class="preloader">
+        <img src="image/favicon.png" alt="Flower" />
+      </div>
+    </div>
+    <!-- End Preloader-->
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="Inicio">
+      <!-- Begin Hero -->
+      <section class="hero is-large">
+        <!-- Begin Mobile Nav -->
+        <nav class="navbar is-transparent is-hidden-desktop">
+          <!-- Begin Burger Menu -->
+          <div class="navbar-brand is-fixed-top">
+            <div class="navbar-burger burger" data-target="mobile-nav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <!-- End Burger Menu -->
+          <div id="mobile-nav" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a class="navbar-item" href="#HoraEvento">
+                  Hora Evento
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#Ubicacion">
+                  Ubicación
+                </a>
+              </div>
+              
+              <div class="navbar-item">
+                <a class="navbar-item" href="#tentang-xv">
+                  Tentang Sherly dan Daeng
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#Asistencia">
+                  Asistencia
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- End Mobile Nav -->
+        <!-- Begin Hero Content-->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="subtitle">Mis XV años</h1>
+            <h2 class="title">Ximena Garrido Solana</h2>
+            <h4 class="subtitle tempatHora">
+              
+                Sábado, 15 Julio 2023 
+                </br>
+                Ángeles Jardín de Eventos
+                </br>
+                Paseo Los Robles 183, 91940 Veracruz, Veracruz de Ignacio de la Llave               
+            </h4>
+          </div>
+          <!-- Start Countdown -->       
+          <div>
+            <ul id="cuentaregresiva" >
+              <li><span class="days">00</span><p class="days_text">Día</p></li>
+              <li class="separator">:</li>
+              <li><span class="hours">00</span><p class="hours_text">Hora</p></li>
+              <li class="separator">:</li>
+              <li><span class="minutes">00</span><p class="minutes_text">Minuto</p></li>
+              <li class="separator">:</li>
+              <li><span class="seconds">00</span><p class="seconds_text">Segundo</p></li>
+            </ul>
+            <div class="espacio">
+            </div>
+            <script type="text/javascript">
+              var now = new Date();
+              var day = now.getDate();
+              var month = now.getMonth() + 1;
+              var year = now.getFullYear() + 1;
+          
+              var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
+              var diah = '07/17/2023 13:00:00';
+
+              $('#cuentaregresiva').countdown({
+                date: diah, // TODO Date format: 07/27/2017 17:00:00
+                offset: +7, // TODO Your Timezone Offset
+                day: 'Día',
+                days: 'Día'
+              }, function () {
+                alert('Bienvenido!');
+              });
+            </script>  
+          </div>
+          <!-- End Countdown -->
+        </div>
+        <!-- End Hero Content-->
+        <!-- Begin Hero Menu -->
+        <div class="hero-foot ">
+          <div class="hero-foot--wrapper">
+            <div class="columns">
+              <div class="column is-12 hero-menu-desktop has-text-centered">
+                <ul>
+                  <li class="is-active">
+                    <a href="#Inicio">Inicio</a>
+                  </li>
+                  <li>
+                    <a href="#HoraEvento">Hora Evento</a>
+                  </li>
+                  <li>
+                    <a href="#Ubicacion">Ubicación</a>
+                  </li>
+                  <li>
+                    <a href="#tentang-xv">Acerca de Ximena</a>
+                  </li>
+
+                  <li>
+                    <a href="#Asistencia">Asistencia</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Hero Menu -->
+      </section>
+      <!-- End Hero -->
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Main Content -->
+    <div class="main-content">
+    <!-- Begin regular-section-->
+     <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content" id="regular-section">
+        
+        <div data-aos="fade-up" data-aos-easing="linear">
+          <img src="image/logo.jpg" class="LogoXV has-text-centered" alt="LogoXV" width="300" height="200">
+          
+        </div>
+
+        <p class="bodytext" data-aos="fade-up" data-aos-easing="linear">
+          El camino que conduce a un mundo nuevo de ilusiones y esperanzas, un mundo de
+          <br />
+          sueños realizados y afectos compartidos; ese es el camino que comienzo a transitar en
+           <br />
+           esta noche que marcará un momento inolvidable. Espero que me acompañes para compartirlo.
+        </p>
+
+        <span class="space40px"></span>
+        <span class="space40px"></span>
+
+        <div data-aos="fade-up" data-aos-easing="linear">
+          <div class="nombre-completo" >
+            Ximena Garrido Solana
+          </div>
+          <div class="ampersand">Texto</div>
+          <div class="nombre-completo">
+            Texto Ejemplo XYZ
+          </div>
+           
+        </div>
+        <span class="space40px"></span>
+        <div data-aos="fade-up" data-aos-easing="linear">
+          <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
+        </div>
+        <span class="space40px"></span>
+        <span class="space40px"></span>
+      </section>
+      <!-- End regular-section-->    
+      
+      <!-- Begin Hora Section -->
+      <section class="section-dark" id="HoraEvento">
+        <div class="container">
+
+          <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+            <h1 class="title has-text-centered section-title">Hora Evento</h1>
+          </div>
+          <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
+            <div
+              class="column is-4 has-vertically-aligned-content">
+            
+              <p class="is-larger has-text-centered">
+                  <div class="Hora fecha-dias has-text-centered">Sábado</div> 
+                  <div class="Hora fecha-numeros has-text-centered">15</div>
+                  <div class="Hora fecha-mes has-text-centered">Julio 2023</div>
+              </p>
+            
+            </div>
+            <div class="column is-4 has-vertically-aligned-content">
+            
+              <p class="Hora is-larger has-text-centered">
+                Hora Evento
+                <br>
+                <strong>13.00 Hrs</strong>
+              </p>
+            
+            </div>
+
+            <div class="column is-4 has-vertically-aligned-content">
+              
+              <h1 class="Hora is-larger has-text-centered">
+                Horario
+                <br>
+                <strong>13.00  - 18.00 Hrs</strong>
+              </h1>
+            </div>
+
+          </div>
+        </div>
+        <div class="space40px"></div>
+        <div class="main-content has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+          <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NGJsZnFwM3VhZzM2NTE0MjJwaHYzZGJ1MjYgZmFtaWx5MTgxOTY1Mjc3MDY4NTkzODMyNDdAZw&tmsrc=family18196527706859383247%40group.calendar.google.com" target="_blank" class="button has-tooltip btn-cta" data-tooltip="Add to Calendar" target="_blank" data-aos="zoom-in">
+            <i class="far fa-calendar-plus"></i>
+            &nbsp;&nbsp;Google Calendar
+          </a>
+        </div>
+      </section>
+      <!-- End Hora Content -->
+
+      <!-- Begin Ubicación Section -->
+      <section class="section-darker" id="Ubicacion" >
+        <div class="container">
+          <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+            <h1 class="title has-text-centered section-title">Ubicación</h1>
+            <p class="tempat is-larger has-text-centered">
+              <strong>Ángeles Jardín de Eventos</strong>
+              <br>
+              Paseo Los Robles 183, 91940
+              <br>
+              Veracruz, Veracruz de Ignacio de la Llave
+              <br>
+            </p>
+          </div>
+          <div class="section-map" data-aos="fade-up" data-aos-easing="linear">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1884.445202166589!2d-96.13823856998732!3d19.156274052783143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c341042968ecb3%3A0xf2391fa78b9b41b9!2s%C3%81ngeles%20Jard%C3%ADn%20de%20Eventos!5e0!3m2!1ses!2smx!4v1678236438498!5m2!1ses!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="space40px"></div>
+          <div class="has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+            <a href="https://goo.gl/maps/2JhyB78xnyiA5ZzA6" class="button btn-cta" target="_blank" data-aos="zoom-in">
+              <i class="far fa-directions"></i>
+              &nbsp;&nbsp;Google Maps
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- End Ubicación Content -->
+
+      <!-- Begin Tentang Ximena  -->
+      <section class="section-light regular-section is-fullheight" id="tentang-xv">
+        <div class="container">
+          <div class="columns is-multiline">  
+          <div class="column has-text-centered is-12 prolog">
+            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Acerca de Ximena</h1>
+            
+
+          
+          <!-- IMAGES -->  
+        <div class=" tile">
+          <div class="tile is-ancestor">
+          <div class="tile is-parent">
+            <article class="tile is-child foto1 notification foto1" data-aos="fade-up" data-aos-easing="linear">
+              <div class="content">
+                <p class="title-foto">Noviembre 2022</p>
+                <p class="subtitle-foto">
+                  Relajada con gatos                  
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child notification foto2" data-aos="fade-up" data-aos-easing="linear">
+              <div class="content">
+                <p class="title-foto">
+                  Diciembre 2022 - Febrero 2023
+                </p>
+                <p class="subtitle-foto">
+                  Más días como estos....
+                </p>   
+              </div>            
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child notification foto3" data-aos="fade-up" data-aos-easing="linear">
+              <div class="content">  
+                <p class="title-foto">
+                  Marzo 2022
+                </p>
+                <p class="subtitle-foto">
+                  Relajada con primos
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="space24px"></div>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent">
+          <article class="tile is-child notification foto6" data-aos="fade-up" data-aos-easing="linear">
+            <div class="content">
+              <p class="title-foto">Junio 2022</p>
+              <p class="subtitle-foto">Jugando</p>
+            </div>
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification foto4" data-aos="fade-up" data-aos-easing="linear">
+            <div class="content">
+              <p class="title-foto">Diciembre 2022</p>
+              <p class="subtitle-foto">De fiesta</p>
+            </div>
+          </article>
+        </div>
+        <div class="tile is-parent">              
+          <article class="tile is-child notification foto5" data-aos="fade-up" data-aos-easing="linear">
+            <div class="content">
+              <p class="title-foto">Enero 2022</p>
+              <p class="subtitle-foto">Durmiendo</p>
+            </div>
+          </article>
+        </div>
+      </div>   
+          <!-- IMAGES -->
+          <div class="space40px"></div>
+            <div data-aos="fade-up" data-aos-easing="linear">
+              <img src="image/divider-leaves.png" class="divider has-vertically-align" alt="~~~">
+            </div> 
+            <div class="space40px"></div>
+            <div class="space40px"></div>
+
+          </div>
+        </div>
+      </section>
+      <!-- End Acerca de Ximena -->
+
+      <!-- Begin Asistencia Content -->
+      <section class="section-dark contact" id="Asistencia">
+        <div class="container">
+          <div class="columns is-multiline">          
+            <div class="column is-12 prolog">
+              <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Confirmación de Asistencia</h1>
+            </div>
+            <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+              <p class="h2 subtitle">
+                Es un honor y felicidad para nosotros invitarte a mi festejo.
+                <br>
+                Si estás dispuesto a estar presente y puedes asistir, pedimos tú confirmación.
+                <br>
+
+                <br>
+                Si no es posible estar con nosotros, esperamos encotnrarnos en otra ocasión.
+ 
+                <br>
+                Gracias por tú comprensión.
+                </p>
+     
+              <a href="https://api.whatsapp.com/send?phone=+2299000000&text=Confirma%20con%20t%C3%BA%20Nombre%20y%20Apellido%20t%C3%BA%20asistencia%20." class="button btn-whatsapp" target="_blank" data-aos="zoom-in">
+                <i class="fab fa-whatsapp"></i>
+                &nbsp;&nbsp;Ximena
+              </a>
+              
+
+   
+              <div class="space40px"></div>
+
+              <div class="space40px"></div>
+              <div data-aos="fade-up" data-aos-easing="linear">
+                <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
+              </div>
+              <div class="space40px"></div>
+              <p class="h2 subtitle" data-aos="fade-up" data-aos-easing="linear">
+                Mis redes sociales
+                <br>
+                <a class="instagram":" href="https://instagram.com/" target="_blank" alt="Instagram Ximena">
+                  <i class="fab fa-instagram"></i> @XimenaGarridoSolana
+                </a>
+                &nbsp
+                <a class="instagram" href="https://facebook.com/" target="_blank" alt="Facebook Ximena">
+                  <i class="fab fa-instagram"></i> @XimenaGarridoSolana
+                </a>
+              </p>
+
+            </div>
+ 
+         </div>
+        </div>
+      </section>
+      <!-- End Asistencia Content -->
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Begin Footer -->
+    <div class="footer">
+      <div class="container">
+        <p class="h2 subtitle">
+          Texto          <br>
+Texto          <br>
+
+          </p>
+
+      </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/evento.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-out",
+        duration: 800,
+      });
+    </script>
+  </body>
+</html>
